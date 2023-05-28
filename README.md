@@ -42,6 +42,8 @@
 4. Follow the comamands:n
    
    ```
+   cd Product_Detection_with_Documentation
+
    npm install                  // to install npm modules
    
    npm install -g truffle       // command to install truffle
