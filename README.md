@@ -35,9 +35,9 @@
 
 3. Clone the project
 
- ```
- git clone git@github.com:IronicDeGawd/Product_Detection_with_Documentation.git
- ```
+   ```
+   git clone git@github.com:IronicDeGawd/Product_Detection_with_Documentation.git
+   ```
 
 4. Follow the comamands:n
    
