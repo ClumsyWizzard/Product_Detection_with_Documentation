@@ -10,8 +10,6 @@
  2. Install metamask extension in your preferred browser.
 
  3. Run the ganache, and copy the rpc url and chain id
-   
-   <img src="https://i.imgur.com/r06xxjK.png" width="450">
 
  4. Add network manually in metamask using the copied rpc url and chain id with any name and symbol
   
