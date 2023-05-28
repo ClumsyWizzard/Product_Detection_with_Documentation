@@ -1,53 +1,63 @@
-# Dream-Killers-Fake-Product-Detection-using-Blockchain-application
-We team DreamKillers are presenting prototype of our project titled "Product Counterfeiting Detection Using Blockchain Based Application", It is an Blockchain based application for detecting Counterfeited products in the B2C supply chain which will benefit businesses in terms of growth, reputation, trust and to customers in getting genuine products in hand.
+# Pre-requisites:
+ Truffle,
+ Ganache,
+ Metamask
+ 
 
-# Prerequisites
-You should have metamask, and Ganache setup already
+# Steps to setup testnet environment :
+ 
+ 1. Install [ganache](https://trufflesuite.com/ganache/) and start it up.
+ 2. Install metamask extension in your preferred browser.
 
-Installing
-A step by step series of examples that tell you how to get a development env running.
+ 3. Run the ganache, and copy the rpc url and chain id
+   
+   <img src="https://i.imgur.com/r06xxjK.png" width="450">
 
-Cloning the repo
+ 4. Add network manually in metamask using the copied rpc url and chain id with any name and symbol
+  
+   <img src="https://i.imgur.com/r06xxjK.png" width="450">
 
-$ git clone https://github.com/AltafMShaikh/Dream-Killers-Fake-Product-Detection-using-Blockchain-application.git
-Installing the dependencies
+ 5. Switch to the added network.
+ 
+ 6. Copy private keys from ganache from any of the account and import it to metamask.
+   
+   <img src="https://i.imgur.com/HM345ms.gif" width="550">
+   
+   <img src="https://i.imgur.com/28plGPk.gif" width="550">
 
-$ npm install
 
-Migrate
+# Steps to setup project from github :
 
-$ truffle migrate --reset
+1. Create a new folder to store the project
 
-Running the server
+2. Open a administrator command prompt and cd into the newly created folder.
 
-change repo to client-cd client
+3. Clone the project
 
-$ npm install 
 
-$ npm run dev
 
-Running the tests
-
-$ truffle test
-# Technology Stack
-Blockchain:
-
-Ethereum - Blockchain Network
-
-Solidity - Smart Contracts
-
-Truffle - development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM)
-
-Ganache - Create private Ethereum blockchain to run tests
-
-Web App:
-
-Metamask - A crypto wallet & gateway to blockchain apps
-
-Web3.js - collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket
-
-React - For designing user interface
-
-CSS - Style Sheet Language
-
-Bootstrap - Templating
+4. Follow the comamands:n
+   
+   ```
+   npm install                  // to install npm modules
+   
+   npm install -g truffle       // command to install truffle
+   
+   truflle migrate --reset      // truffle to command reset deployed smart contracts
+  
+   cd client     
+   
+   npm install
+   
+   npm install --global yarn   //command to install yarn
+   
+   yarn build
+   
+   yarn global add serve
+   
+   npm run start
+   ```
+   
+   
+   
+   
