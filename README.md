@@ -7,11 +7,14 @@
 # Steps to setup testnet environment :
  
  1. Install [ganache](https://trufflesuite.com/ganache/) and start it up.
+ 
  2. Install metamask extension in your preferred browser.
 
- 3. Run the ganache, and copy the rpc url and chain id
+ 3. Run the ganache, and copy the rpc url and chain id.
+   
+   <img src="https://i.imgur.com/HwI6la5.png" width="450">
 
- 4. Add network manually in metamask using the copied rpc url and chain id with any name and symbol
+ 4. Add network manually in metamask using the copied rpc url and chain id with any name and symbol.
   
    <img src="https://i.imgur.com/r06xxjK.png" width="450">
 
