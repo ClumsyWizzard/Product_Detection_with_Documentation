@@ -48,7 +48,7 @@
    
    npm install -g truffle       // command to install truffle
    
-   truflle migrate --reset      // truffle to command reset deployed smart contracts
+   truffle migrate --reset      // truffle to command reset deployed smart contracts
   
    cd client     
    
